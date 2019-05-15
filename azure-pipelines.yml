@@ -10,7 +10,7 @@ steps:
   displayName: 'Install the CLI'
   inputs:
     azureSubscription: 'Microsoft Azure Internal Consumption(893395a4-65a3-4525-99ea-2378c6e0dbed)'
-    scriptLocation: inlineScript
+    scriptLocation: 'inlineScript'
     inlineScript: 'az extension add -n azure-cli-ml'
 
 - task: AzureCLI@1
